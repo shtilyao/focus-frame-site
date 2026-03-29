@@ -1,0 +1,287 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol {
+    margin: 0;
+}
+
+ul,
+ol {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    background-color: #121212;
+    color: #ffffff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+/* ------------------------------------------------------ */
+
+.container {
+    max-width: 1440px;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.logo-nav-block {
+    display: flex;
+    flex-basis: 982px;
+    gap: 209px;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 22px 50px;
+}
+
+.nav-link {
+    padding: 21px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: #bea69e;
+}
+
+.button {
+    display: block;
+    font-size: 18px;
+    line-height: 1.56;
+    text-transform: uppercase;
+    color: #121212;
+    padding: 16px 84px;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    border-radius: 12px;
+}
+
+.header {
+    margin-bottom: 80px;
+}
+
+/*------------------------------------------------*/
+
+.hero {
+    margin-bottom: 150px;
+}
+
+.hero-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1d1d1d;
+    border-radius: 30px;
+    padding: 80px 100px 0 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 1.0625;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+    max-width: 563px;
+}
+
+.hero-span {
+    font-style: italic;
+    font-weight: 400;
+    color: #bea69e;
+}
+
+.hero-text {
+    font-size: 14px;
+    line-height: 1.28571;
+    max-width: 418px;
+    margin-bottom: 136px;
+}
+
+.student-avatars {
+    display: flex;
+}
+
+ .avatar {
+    border-radius: 50%;
+    border: 3px solid #1d1d1d;
+    object-fit: cover; 
+    width: 54px;
+    height: 54px;
+}
+
+.avatar:not(:first-child) {
+    margin-left: -12px;
+}
+
+.students-text {
+    line-height: 1.25;
+    letter-spacing: -0.04em;
+    max-width: 82px;
+}
+
+.students {
+    display: flex;
+    gap: 12px;
+}
+
+.review-icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #bca08f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews-span {
+    line-height: 1.25;
+        letter-spacing: -0.04em;
+        color: rgba(255, 255, 255, 0.5);
+}
+
+.review-text {
+    font-weight: 500;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+        max-width: 57px;
+}
+
+.review {
+    display: flex;
+    gap: 12px;
+}
+
+.hero-info {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.hero-image {
+    width: 397px;
+    height: 520px;
+}
+
+/*--------------------------------------------------*/
+
+.master-title {
+    font-size: 59px;
+        line-height: 1.08475;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #bea69e;
+}
+
+.master-title-span {
+    color: #ffffff;
+}
+
+.master-title-box {
+    padding: 24px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 150px;
+}
+
+/*----------------------------------------------------*/
+
+.section-about-flex {
+    display: flex;
+    gap: 50px;
+}
+
+.about-image {
+    width: 560px;
+    height: 240px;
+}
+
+.about-text {
+    display: flex;
+    gap: 40px;
+}
+
+.about-text-first {
+    max-width: 314px;
+}
+
+.about-text-second {
+    max-width: 276px;
+}
+
+.section-about-us {
+    margin-bottom: 165px;
+}
+
+.section-about-us-title {
+    font-size: 48px;
+        line-height: 1.125;
+        letter-spacing: -0.04em;
+        font-weight: 500;
+        margin-bottom: 50px;
+}
+
+.about-us-span {
+    color: #bea69e;
+}
+
+/*-------------------------------------------------*/
