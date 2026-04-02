@@ -240,7 +240,6 @@ select {
     padding: 24px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    margin-bottom: 150px;
 }
 
 /*----------------------------------------------------*/
@@ -269,7 +268,7 @@ select {
 }
 
 .section-about-us {
-    margin-bottom: 165px;
+    padding-top: 150px;
 }
 
 .section-about-us-title {
@@ -285,3 +284,65 @@ select {
 }
 
 /*-------------------------------------------------*/
+
+.our-courses-title {
+    font-weight: 500;
+        font-size: 48px;
+        line-height: 1.125;
+        letter-spacing: -0.04em;
+        max-width: 240px;
+}
+
+.our-courses {
+    padding-top: 150px;
+}
+
+.courses-title-span {
+    color: #bea69e;
+}
+
+.title-text-courses {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.section-courses-text {
+    max-width: 565px;
+}
+
+.courses-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 400px;
+    padding: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+}
+
+.courses-card-first-line {
+    display: flex;
+    gap: 290px;
+}
+
+.courses-card-text {
+    max-width: 336px;
+}
+
+.courses-card-title {
+    max-width: 265px;
+    margin-bottom: 200px;
+}
+
+.courses-card-list {
+    display: flex;
+    gap: 20px;
+}
+
+.courses-card-first-line h {
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.4);
+}
